@@ -1,0 +1,18 @@
+{
+  "name": "amoghsrivastava",
+  "version": "1.0.0",
+  "description": "Amogh Srivastava's Personal Website",
+  "main": "sass/mystyles.scss",
+  "author": "Amogh Srivastava",
+  "license": "ISC",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "devDependencies": {
+    "bulma": "^0.9.1",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {}
+}
